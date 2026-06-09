@@ -17,6 +17,16 @@ Body {
             max-width: 400px;
         }
 
+  .quote-container {
+      border: 1px solid black;
+      border-radius: 4px;
+      padding: 5px;
+      background-color: lightgray;
+      margin: 10px;
+      display: block;
+      text-align: center;
+  }
+
   h2 {
             margin-top: 10;
             color: solid black;
