@@ -7,7 +7,12 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    
+
+    
     <div class="form-container">
+
+        <div id="quote-container"></div>
  
     <h2>User Personal Information</h2>
      <form id="userForm">
@@ -17,12 +22,12 @@
         </div>
 
         <div class="form-group">
-            <label for="birthdate">Select your Birthdate:</label>
-            <input type="number" id="userAge" name="age" placeholder="Enter your age" min="1" max="110" required>
+            <label for="age">Age:</label>
+            <input type="number" id="userAge" name="age" placeholder="Enter your age" min="1" max="125" required>
           
         </div>
             <button type="submit">Submit</button>
-    </form>
+    
     
     <!-- Age Calculation in Months: -->
     <label for="birthdate">Select your Birthdate:</label>
@@ -33,6 +38,8 @@
     
     <!-- Container to display result -->
     <p id="result"></p>
+
+    </form>
 </div>
  <script src="script.js"></script>
 </body>
