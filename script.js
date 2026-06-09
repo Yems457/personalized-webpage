@@ -1,5 +1,5 @@
 // Part 1: Basic Conditional Logic
-let age = 15;
+let age = 25;
 
 if (age >= 18) {
     console.log("Adult")
@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", () => {
         console.log("Hello, Guest! Welcome."); 
     } 
 
-    // 4. Convert object to string and save ONLY when the form submits
+    // Convert object to string and save ONLY when the form submits
     if (form) {
         form.addEventListener("submit", (e) => {
             e.preventDefault(); // Stop page reload
@@ -92,7 +92,7 @@ function displayAgeInMonths() {
     }
 }
 
-const quote = "Truth lifts the heart like water refreshes thirst.. - Opeyemi Farayola";
+const quote = "Do not sell your conscience for anything but Paradise... Opeyemi Farayola";
 let displayHTML = "";
 
 // Loop 5 times
