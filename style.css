@@ -1,6 +1,6 @@
-Body {
+body {
     width: 100%;
-    Height: 100vh;
+    height: 100vh;
     margin: 0;
     color: black;
     display: flex;
@@ -26,9 +26,9 @@ Body {
       display: block;
       text-align: center;
   }
-
+  
   h2 {
-            margin-top: 10;
+            margin-top: 10px;
             color: solid black;
         }
         .form-group {
@@ -37,7 +37,7 @@ Body {
         label {
             display: block;
             margin-bottom: 5px;
-            color: gray
+            color: gray;
         }
 
         input[type="text"],
