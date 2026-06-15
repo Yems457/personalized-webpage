@@ -1,11 +1,18 @@
 // Part 1: Basic Conditional Logic
-let age = 25;
 
-if (age >= 18) {
-    console.log("Adult")
-} else {
-    console.log("Not an Adult")
-};
+        let userAge = 20;
+
+        // 3. Select the HTML element by its ID
+        let displayElement = document.getElementById("output-message");
+
+        // 4. Run the if...else logic and display the result on the page
+        if (userAge >= 18) {
+            displayElement.innerHTML = "<strong>Access Granted:</strong> You are an adult.";
+            displayElement.style.color = "green"; 
+        } else {
+            displayElement.innerHTML = "<strong>Access Denied:</strong> You are too young.";
+            displayElement.style.color = "red";
+        }
 
 // Part 2: DOM and LocalStorage Logic
 document.addEventListener("DOMContentLoaded", () => { 
