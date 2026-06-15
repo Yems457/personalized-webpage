@@ -8,11 +8,7 @@
 </head>
 <body>
 
-   
-    
-
-    
-    <div class="form-container">
+<div class="form-container">
 
     <!-- The HTML elements where the results will be shown -->
     <h2>User Status</h2>
@@ -23,28 +19,30 @@
     <div id="quote-container"></div>
      
      <h2>User Personal Information</h2>
+
+     <p>Hello, Guest! Welcome back.</p>
+     
      <form id="userForm">
         <div class="form-group">
             <label for="name">Name:</label>
+            
             <input type="text" id="userName" name="name" placeholder="Enter your full name" required>
         </div>
 
         <div class="form-group">
             <label for="age">Age:</label>
             <input type="number" id="userAge" name="age" placeholder="Enter your age" min="1" max="125" required>
-          
-        </div>
-            <button type="submit">Submit</button>
-    
-    
-    <!-- Age Calculation in Months: -->
-    <label for="birthdate">Select your Birthdate:</label>
-    <input type="date" id="birthdate">
-    
+        </div>  
     <!-- Button to trigger calculation -->
-    <button onclick="displayAgeInMonths()">Calculate Age</button>
-    <p id="result"></p>
-    
+        <div class="form-group">
+             <!-- Age Calculation in Months: -->
+            <label for="birthdate">Select your Birthdate:</label>
+            <input type="date" id="birthdate">
+        </div>
+
+            <p id="result"></p>
+            <button onclick="displayAgeInMonths()">Submit</button>
+
 </form>
     
 </div>
